@@ -38,6 +38,13 @@ console.log(carro.modelo);
 console.log(`Carros da ${carro.marca} tem a cor ${carro.cor}.`);
 console.log(`Este carro tem ${carro.opicionais[0]} e ${carro.opicionais[2]}.`);
 
+// Exercício 02
 
+let jogo = {
+    tipo: "RPG",
+    sistema: "D&D 5e",
+    nomepersonagem: "Damakos",
+    descricao: [1.85, 18, "cabelo verde", "barba cheia", "heterocromia", "bruxo" ]
+}
 
-
+console.log(`Na seção de ${jogo.tipo} que eu partipo no sistema ${jogo.sistema} `);
