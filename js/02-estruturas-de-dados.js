@@ -10,3 +10,6 @@ Listan de dados não indexados e formados por propriedades e valores.
 // Arrays
 let cursos = ["Node.js", "React", "UX/UI Design", "SQL"];
 
+
+
+console.log(cursos[3]); //SQL
