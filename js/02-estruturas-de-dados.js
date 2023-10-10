@@ -47,4 +47,4 @@ let jogo = {
     descricao: [1.85, 18, "cabelo verde", "barba cheia", "heterocromia", "bruxo" ]
 }
 
-console.log(`Na seção de ${jogo.tipo} que eu partipo no sistema ${jogo.sistema} `);
+console.log(`Na seção de ${jogo.tipo} que eu partipo no sistema ${jogo.sistema} e o meu personagem ${jogo.nomepersonagem} com as seguintes caracteristicas ${jogo.descricao} `);
