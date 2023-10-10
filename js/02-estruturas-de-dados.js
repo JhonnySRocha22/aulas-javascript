@@ -105,8 +105,8 @@ console.log(tecnologias[0][0]);
 
 
 
-
-
+console.table(cursos);
+console.table(carro)
 
 
 
