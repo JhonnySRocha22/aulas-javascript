@@ -1,3 +1,4 @@
+"use strict";
 
 let nota1 = 10;
 let nota2 = 9;
