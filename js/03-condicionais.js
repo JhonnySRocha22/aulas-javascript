@@ -21,6 +21,7 @@ if(idade >= 18 ){
 
 //Apresentando os resultados após a condicional
 console.log(`${usuario} é ${mensagem} de idade!`);
+alert(`${usuario} é ${mensagem} de idade!`);
 
 
 
