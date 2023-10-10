@@ -45,6 +45,73 @@ let jogo = {
     sistema: "D&D 5e",
     nomepersonagem: "Damakos",
     descricao: [1.85, 18, "cabelo verde", "barba cheia", "heterocromia", "bruxo" ]
-}
+};
 
-console.log(`Na seção de ${jogo.tipo} que eu partipo no sistema ${jogo.sistema} e o meu personagem ${jogo.nomepersonagem} com as seguintes caracteristicas ${jogo.descricao} `);
+console.log(`Na seção de ${jogo.tipo} que eu partipo no sistema ${jogo.sistema} e o meu personagem ${jogo.nomepersonagem} com as seguintes caracteristicas ${jogo.descricao}. `);
+console.log("----------------------------------------------------------");
+
+// Objeto com Arrey e com outro objeto
+
+let pessoa = {
+    nome: "Shiryu",
+    idade: 20,
+    telefones: ["11-2135-0300", "11-91234-5678"],
+    medidas: {
+        peso: 65,
+        altura: 1.75
+    }
+};
+
+
+console.log(`Nome: ${pessoa.nome}`);
+console.log(`Celular: ${pessoa.telefones[1]}`);
+console.log(`Peso: ${pessoa.medidas.peso} kg`);
+console.log(`Altura: ${pessoa.medidas.altura}m`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
