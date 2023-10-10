@@ -7,8 +7,8 @@ IF - se
 ELSE - senão
 IF ELSE - senão se*/
 
-let usuario = "Juean";
-let idade = 25;
+let usuario = prompt("Qual o seu nome?");
+let idade = prompt("Quantos anos você tem?");
 let mensagem;  //indefinida/undefined
 
 //Verificar a idade e determinar se é maior ou menor
