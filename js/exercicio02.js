@@ -30,7 +30,6 @@ console.log(alunos[i].nome);
 console.log("--------------------------");
 
 let i = 0;
-
 while(i < quantidadedeAlunos ){
     console.log(alunos[i].nome);
     i++;

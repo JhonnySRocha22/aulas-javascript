@@ -46,7 +46,43 @@ for( let i = 0; i < quantidade; i++ ){
     console.log(`Cliente: ${clientes[i]}`);
 }
 
+console.log("-------------------------------------------");
 
+
+//for/of -> para arrays
+let bandas = ["Slayer", "Dream Theater", "Nightwish"]
+
+// para BANDA de BANDAS
+for(let banda of bandas){
+    console.log(banda);
+}
+
+console.log("--------------------------------------------");
+
+//for/in -> objetos
+
+let livro = {
+    titulo: "HTML5",
+    autor: "Maujor",
+    site: "http//maujor.com",
+    ano: 2016,
+    editora: "Novatec",
+    edição: 3
+}
+
+
+//para DETALHES dentro/em LIVRO
+for(let detalhes in livro){
+//Acessar APENAS a propriedade
+
+/* console.log(detalhes); */
+
+
+//acessar VALOR de cada propriedade
+/* console.log(livro[detalhes]); */
+
+console.log(`${detalhes} -> ${livro[detalhes]}`);
+}
 
 
 
