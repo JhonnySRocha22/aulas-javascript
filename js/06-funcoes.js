@@ -64,21 +64,18 @@ let preco = 5500;
 let desconto = preco * 0.10;  //10%
 let precoFinal = preco - desconto;
 
+function formatarpreco(valor){
+    let opcoes = {
+        style: "currency", 
+        currency: "BRL"
+    }
+    return valor.toLocaleString("pt-br", opcoes);
+}
 
-console.log(`Preço: ${preco.toLocaleString("pt-br", {
-    style: "currency", 
-    currency: "BRL"
-})}`);
-console.log(`Desconto: ${desconto.toLocaleString("pt-br", {
-    style: "currency", 
-    currency: "BRL"
-}
-)}`);
-console.log(`Preço final: ${precoFinal.toLocaleString("pt-br", {
-    style: "currency", 
-    currency: "BRL"
-}
-)}`);
+
+console.log(`Preço: ${formatarpreco(preco)}`);
+console.log(`Desconto: ${formatarpreco(desconto)}`);
+console.log(`Preço final: ${formatarpreco(precoFinal)}`);
 
 
 
