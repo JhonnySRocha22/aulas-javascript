@@ -56,3 +56,48 @@ function somar(valor1, valor2){
 console.log( somar (10, 20) );
 console.log( somar (15, 50));
 console.log( somar (30, 47.8));
+
+
+/* Formatação de valores em Reais */
+
+let preco = 5500;
+let desconto = preco * 0.10;  //10%
+let precoFinal = preco - desconto;
+
+
+console.log(`Preço: ${preco.toLocaleString()}`);
+console.log(`Desconto: ${desconto.toLocaleString()}`);
+console.log(`Preço final: ${precoFinal.toLocaleString()}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
