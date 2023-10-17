@@ -61,7 +61,7 @@ console.log("--------------------------------------------");
 
 //for/in -> objetos
 
-let livro = {
+/* let livro = {
     titulo: "HTML5",
     autor: "Maujor",
     site: "http//maujor.com",
@@ -81,9 +81,9 @@ for(let detalhes in livro){
 //acessar VALOR de cada propriedade
 /* console.log(livro[detalhes]); */
 
-console.log(`${detalhes} -> ${livro[detalhes]}`);
-}
-
+/* console.log(`${detalhes} -> ${livro[detalhes]}`); 
+} 
+*/
 
 
 
